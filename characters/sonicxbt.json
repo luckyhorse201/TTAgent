@@ -3,7 +3,7 @@
     "plugins": [
       "@elizaos/plugin-twitter"
     ],
-    "clients": ["telegram","twitter"],
+    "clients": ["telegram"],
     "clientConfig": {
       "telegram": {
           "shouldIgnoreBotMessages": true,

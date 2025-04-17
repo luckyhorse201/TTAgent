@@ -237,6 +237,7 @@ export async function sendTweet(
             ? body?.data?.notetweet_create?.tweet_results?.result
             : body?.data?.create_tweet?.tweet_results?.result;
 
+        console.log("@@@@@@@tweetResult: ",tweetResult);
         // if we have a response
         if (tweetResult) {
             // Parse the response
@@ -256,6 +257,7 @@ export async function sendTweet(
                 urls: [],
                 videos: [],
             };
+            console.log("@@@@@@@@@@@finalTweet in sendTweet:",finalTweet);
             sentTweets.push(finalTweet);
             previousTweetId = finalTweet.id;
         } else {

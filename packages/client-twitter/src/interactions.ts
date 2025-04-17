@@ -1,7 +1,7 @@
 import { SearchMode, type Tweet } from "agent-twitter-client";
 import {
     composeContext,
-    generateMessageResponse,
+    generateMessageResponseTwitter,
     generateShouldRespond,
     messageCompletionFooter,
     shouldRespondFooter,
@@ -460,7 +460,7 @@ export class TwitterInteractionClient {
                 twitterMessageHandlerTemplate,
         });
 
-        const response = await generateMessageResponse({
+        const response = await generateMessageResponseTwitter({
             runtime: this.runtime,
             context,
             modelClass: ModelClass.LARGE,
