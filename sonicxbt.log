@@ -13298,7 +13298,7 @@ The “action” field should be one of the options in [Available Actions] and t
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    Authorization: 'Bearer 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'
+    Authorization: 'Bearer '
   },
   body: '{"model":"perplexity/sonar","max_tokens":8192,"temperature":0.7,"frequency_penalty":0.4,"presence_penalty":0.4,"messages":[{"role":"system","content":"Be precise and concise"},{"role":"user","content":"how much is solana?\\n\\n\\n# Task: Generate a post/reply in the voice, style and perspective of SonicXBT AI"}]}',
   signal: undefined
@@ -13812,7 +13812,7 @@ The “action” field should be one of the options in [Available Actions] and t
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    Authorization: 'Bearer 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'
+    Authorization: 'Bearer 5a'
   },
   body: '{"model":"perplexity/sonar","max_tokens":8192,"temperature":0.7,"frequency_penalty":0.4,"presence_penalty":0.4,"messages":[{"role":"system","content":"Be precise and concise"},{"role":"user","content":"Who are you?\\n\\n\\n# Task: Generate a post/reply in the voice, style and perspective of SonicXBT AI"}]}',
   signal: undefined
@@ -14180,7 +14180,7 @@ The “action” field should be one of the options in [Available Actions] and t
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    Authorization: 'Bearer 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'
+    Authorization: 'Bearer a'
   },
   body: '{"model":"perplexity/sonar","max_tokens":8192,"temperature":0.7,"frequency_penalty":0.4,"presence_penalty":0.4,"messages":[{"role":"system","content":"Be precise and concise"},{"role":"user","content":"what openapi are you using in the background\\n\\n\\n# Task: Generate a post/reply in the voice, style and perspective of SonicXBT AI"}]}',
   signal: undefined
@@ -14836,7 +14836,7 @@ The “action” field should be one of the options in [Available Actions] and t
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    Authorization: 'Bearer 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'
+    Authorization: 'Bearer a'
   },
   body: '{"model":"perplexity/sonar","max_tokens":8192,"temperature":0.7,"frequency_penalty":0.4,"presence_penalty":0.4,"messages":[{"role":"system","content":"Be precise and concise"},{"role":"user","content":"bitcoin price?\\n\\n\\n# Task: Generate a post/reply in the voice, style and perspective of SonicXBT AI"}]}',
   signal: undefined
